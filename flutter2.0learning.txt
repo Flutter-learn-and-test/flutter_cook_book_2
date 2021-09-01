@@ -1,0 +1,23 @@
+1 Final and Const
+The difference between final and const is subtle but important. A final variable must have a value assigned to it in the same statement where it was declared, and that variable cannot be reassigned to a different value:
+final meaningOfLife = 42;
+meaningOfLife = 64; // This will throw an error
+While the top-level value of a final variable cannot change, its internal contents can. In a list of numbers that have been assigned to a final variable, you can change the internal values of that list, but you cannot assign a completely new list.
+
+2 String Interpolation
+- backslash is called an escape character
+
+3. Function
+One of the new features that Dart has added is optional parameters. If you wrap your function's parameter list in square brackets, then those parameters can be omitted without the compiler throwing errors.
+
+4. Closure Function:
++ We can declare closure 2 method:
+- Function property:
+void closure(void getter(int n)){
+	
+} 
+- typedef keyword: ( The easiest and most maintainable way )
+typedef Number = int Function();
+
+ 
+
